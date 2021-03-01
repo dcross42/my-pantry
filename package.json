@@ -1,0 +1,27 @@
+{
+  "name": "my-pantry",
+  "version": "1.0.0",
+  "description": "app to track inventory in your pantry, store recipes, generate shopping lists, and plan meals",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcross42/my-pantry.git"
+  },
+  "author": "Dan Crosson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dcross42/my-pantry/issues"
+  },
+  "homepage": "https://github.com/dcross42/my-pantry#readme",
+  "dependencies": {
+    "chai": "^4.3.0",
+    "express": "^4.17.1",
+    "jsdom": "^16.4.0",
+    "mocha": "^8.3.0",
+    "mongoose": "^5.11.18",
+    "supertest": "^6.1.3"
+  }
+}
